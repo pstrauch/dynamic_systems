@@ -29,4 +29,5 @@ Run the application from the commandline using `./build/path/to/application`.
 
 ### Further Resources:
 
-`ccmake` command-line-interface for setting compiler flags
+- `cmake -DCMAKE_BUILD_TYPE=[Debug | Release] ..` to configure the project for debugging or release
+- `ccmake` command-line-interface for setting compiler flags
