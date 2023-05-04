@@ -2,6 +2,22 @@
 
 A sandbox project for implementing control system algorithms on c++.
 
+## Project Structure
+
+```
+root
+| - lib
+    | - library
+        | - package
+            | - include
+            | - src
+| - src
+    | - package
+        | - include
+        | - src
+```
+
+
 # CMake Quickref
 
 This project uses CMake. 
