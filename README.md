@@ -33,6 +33,7 @@ Run the application from the commandline using `./build/path/to/application`.
 - `cmake -DCMAKE_BUILD_TYPE=[Debug | Release] ..` to configure the project for debugging or release
 - `cmake -DVARIABLE_NAME=value` to set the value of a cmake variable
 - `set(VARIABLE_NAME default_value CACHE TYPE "Variable Description")` to declare and cache variable (omit CACHE to only set the variable without caching it).
-- `option(OPTION_NAME "description" [ON | OFF])` to add a cached bool variable which are intended for an external user to set (without breaking the build). usually the default value is OFF.
+- `option(OPTION_NAME "description" [ON | OFF])` to add a cached bool variable which is intended for an external user to set without breaking the build. Usually the default value is OFF.
 - `message([STATUS ]"Message")` To print a message during configuration
 - `ccmake` commandline interface for setting cached variables
+- `set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})` specify location for executables
